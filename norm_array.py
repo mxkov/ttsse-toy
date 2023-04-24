@@ -9,3 +9,6 @@ def plot_hist(x, filename='hist.png'):
 	plt.hist(x, bins='auto')
 	plt.savefig(filename, dpi=200, bbox_inches='tight')
 	plt.close()
+
+if __name__ == '__main__':
+	plot_hist(norm_array())
