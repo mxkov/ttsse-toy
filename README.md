@@ -1,1 +1,1 @@
-# ttsse-toy
+# Toy repo for the TTSSE course
