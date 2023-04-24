@@ -11,4 +11,4 @@ def plot_hist(x, filename='hist.png'):
 	plt.close()
 
 if __name__ == '__main__':
-	plot_hist(norm_array())
+	plot_hist(norm_array(n=20), filename='hist20.png')
